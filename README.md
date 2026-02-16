@@ -21,9 +21,9 @@ Part 1 – Custom Gradient Descent Linear Regression
 
 Main file:
 
-part1.ipynb
+part1.py
 
-What part1.ipynb does:
+What part1.py does:
 
 Loads and preprocesses the Auto MPG data (handles missing values, encodes categorical features, scales numeric features).
 
@@ -48,12 +48,13 @@ Generates plots (for example: correlation heatmap, MPG distribution, and optiona
 
 How to run Part 1:
 
-python part1.ipynb
+python part1.py
+
 Part 2 – Linear Regression Using ML Library
 
 Main file:
 
-part2.ipynb
+part2.py
 
 Libraries used (in addition to numpy, pandas, matplotlib, seaborn, csv):
 
@@ -67,7 +68,7 @@ sklearn.model_selection.train_test_split
 
 sklearn.metrics (mean_squared_error, r2_score, explained_variance_score)
 
-What part2.ipynb does:
+What part2.py does:
 
 Loads and preprocesses the Auto MPG data in the same way as Part 1 (to ensure a fair comparison).
 
@@ -113,7 +114,7 @@ and saves them as image files.
 
 How to run Part 2:
 
-python part2.ipynb
+python part2.py
 Outputs and How to Use Them
 
 Log files:
