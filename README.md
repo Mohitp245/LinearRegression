@@ -65,6 +65,9 @@ How to run Part 1:
 
 text
 python part1.ipynb
+
+
+
 Part 2 – Linear Regression Using ML Library
 
 Main file:
