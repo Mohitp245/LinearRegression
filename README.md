@@ -4,33 +4,18 @@ Linear Regression using ML Library (Part 2)
 
 Environment Setup
 
-Python version:
-
+Python version: 
 Use Python 3.9 or newer.
 
-Required packages:
+Required packages: 
+numpy, pandas, scikit-learn, seaborn, matplotlib
 
-numpy
-
-pandas
-
-scikit-learn
-
-seaborn
-
-matplotlib
-
-Install with:
-
-text
+Install with: 
 pip install numpy pandas scikit-learn seaborn matplotlib
-Dataset
 
 Dataset: Auto MPG (UCI Machine Learning Repository).
+The scripts load the dataset from a public URL (e.g., a GitHub raw link). You do not need to download the dataset manually.
 
-The scripts load the dataset from a public URL (e.g., a GitHub raw link).
-
-You do not need to download the dataset manually.
 
 Part 1 – Custom Gradient Descent Linear Regression
 
@@ -42,7 +27,7 @@ What part1.ipynb does:
 
 Loads and preprocesses the Auto MPG data (handles missing values, encodes categorical features, scales numeric features).
 
-Splits the data into training and test sets (for example, 80% train, 20% test) with a fixed random seed.
+Splits the data into training and test sets (80% train, 20% test) with a fixed random seed.
 
 Defines and uses a custom LinearRegressionGD class that implements linear regression using gradient descent from scratch.
 
@@ -63,11 +48,7 @@ Generates plots (for example: correlation heatmap, MPG distribution, and optiona
 
 How to run Part 1:
 
-text
 python part1.ipynb
-
-
-
 Part 2 – Linear Regression Using ML Library
 
 Main file:
@@ -132,7 +113,6 @@ and saves them as image files.
 
 How to run Part 2:
 
-text
 python part2.ipynb
 Outputs and How to Use Them
 
